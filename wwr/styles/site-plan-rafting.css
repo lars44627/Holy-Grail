@@ -8,8 +8,8 @@
 --accent1-color: #d33f49;
 --accent2-color: #087e8b;
 
---heading-font: ' ', serif;
---paragraph-font: ' ', serif;
+--heading-font: 'Inter', sans-serif;
+--paragraph-font: 'Inter', sans-serif;
 
 --nav-background-color: #3c3744;
 --nav-link-color: blue;
