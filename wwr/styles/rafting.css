@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+    --primary-color: #3c3744;
+    --secondary-color: #03f7eb;
+    --accent-color: #d33f49;
+}
+
+h1, h2, h3 {
+font-family: 'Inter';
+color: grey;
+}
+
+p {
+font-family: 'Inter';
+color: darkgrey;
+}
+
+.sociallinks a{
+    text-decoration: none;
+}
+.sociallinks img{
+    max-width: 150px;
+}
+.links a{
+    text-decoration: none;
+}
+body{
+    max-width: 800px;
+}
+.hero{
+    position: relative;
+}
+
+.hero img{
+    position: relative;
+    display: block;
+    width: 200%;
+    height: auto
+}
+
+.hero h1{
+    position: absolute;
+    top: 80px;
+    padding: 1rem;
+    left: 250px;
+    font-size: 4rem;
+    white-space: nowrap;
+    background-color: rgba(0, 0, 0, .5);
+}
+.hero article {
+        position: absolute;
+        top: 320px;
+       left: 600px;
+       font-size: 1.5rem;
+       width: 850px;
+       background-color: rgba(0, 0, 0, 0.5);
+       padding: 1rem;
+}
+
+.hero article img{
+    float: right;
+    margin-left: 20px;
+    height: auto;
+    width: 350px;
+}
