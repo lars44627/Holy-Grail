@@ -6,6 +6,29 @@
     --accent-color: #d33f49;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr, 2fr;
+    align-items: center;
+    border: 5px, black;
+    background-color: #797481;
+ }
+ 
+ .img1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    max-width: 200px;
+    max-height: 200px;
+ }
+ 
+ .links {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    background-color: white;
+ }
 h1, h2, h3 {
 font-family: 'Inter';
 color: grey;
@@ -26,7 +49,7 @@ color: darkgrey;
     text-decoration: none;
 }
 body{
-    max-width: 800px;
+    max-width: 1600px;
 }
 .hero{
     position: relative;
@@ -35,7 +58,7 @@ body{
 .hero img{
     position: relative;
     display: block;
-    width: 200%;
+    width: 100%;
     height: auto
 }
 
@@ -63,4 +86,61 @@ body{
     margin-left: 20px;
     height: auto;
     width: 350px;
+}
+
+.his {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    height: 40vh;
+    padding: 20px;
+    background-color: #797481;
+  }
+  
+  .his h2 {
+    grid-row: 1;
+    font-size: 50px;
+    color: white;
+  }
+  
+  .his p {
+    grid-row: 2;
+    font-size: 30px;
+    color: white;
+  }
+
+  .adv {
+    border: thin black solid;
+    display: flex;
+    flex-flow: column
+    padding: 5px;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.adv img{
+    max-width: 220px;
+    max-height: 150px;
+}
+
+.adv h2{
+    background-color: #222;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #797481;
+  }
+  
+  .sociallinks {
+    display: flex;
+  }
+  
+  .sociallinks a {
+    margin-left: 10px;
+    max-width: 200px;
 }
