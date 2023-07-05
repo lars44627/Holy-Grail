@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    font-size: 1.4em;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.0em;
+    margin: 50px;
+    color: purple;
+}
+
+form{
+    width: 800px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: .5rem;
+    padding: 1rem;
+    background-color: lightblue;
+    display: grid;
+}
+fieldset{
+    display:grid;
+    grid-gap: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+legend{
+    padding: .5rem;
+    text-align: center;
+}
+label{
+    text-align: left;
+}
+
+input, select, textarea{
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+button{
+    font-size: 2rem;
+    background-color: darkcyan;
+}
