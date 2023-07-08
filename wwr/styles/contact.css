@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+    --primary-color: #3c3744;
+    --secondary-color: #03f7eb;
+    --accent-color: #d33f49;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    align-items: center;
+    border: 5px black;
+    background-color: #797481;
+ }
+ 
+ .img1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    max-width: 200px;
+    max-height: 200px;
+ }
+ 
+ .links {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    background-color: white;
+ }
+h1, h2, h3 {
+font-family: 'Inter';
+color: black;
+font-weight: bold;
+}
+h1{
+text-align: center;
+}
+
+p {
+font-family: 'Inter';
+color: black;
+}
+
+.sociallinks a{
+    text-decoration: none;
+}
+.sociallinks img{
+    max-width: 150px;
+}
+.links a{
+    text-decoration: none;
+}
+body{
+    max-width: 1600px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #797481;
+  }
+  
+  .sociallinks {
+    display: flex;
+  }
+  
+  .sociallinks a {
+    margin-left: 10px;
+    max-width: 200px;
+}
+.employees {
+    background-color: #3c3744;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .employee {
+    flex-basis: 30%;
+    background-color: #3c3744;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .employee img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .employee p {
+    font-weight: bold;
+    font-size: larger;
+  }
+  .company-info {
+    background-color: #03f7eb;
+    padding: 20px;
+  }
+  
+  .company-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .company-info p {
+    margin-bottom: 5px;
+  }
+  
+  .company-info .map {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .company-info .map iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    border: 0;
+    background-color: #797481;
+  }
+  h2{
+    text-align: center;
+  }
+  form {
+    background-color: #3c3744;
+    padding: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="radio"] + label,
+  form input[type="checkbox"] + label {
+    color: #fff;
+  }
+  
+  form input[type="submit"] {
+    background-color: #fff;
+    color: #3c3744;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #f1f1f1;
+  }
