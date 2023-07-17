@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+    --primary-color: #3c3744;
+    --secondary-color: #03f7eb;
+    --accent-color: #d33f49;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    align-items: center;
+    border: 5px black;
+    background-color: #797481;
+ }
+ 
+ .img1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    max-width: 200px;
+    max-height: 200px;
+ }
+ 
+ .links {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    background-color: white;
+ }
+
+ .button {
+    padding: 15px 30px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #d33f49;
+    color: #ffffff;
+    border-radius: 4px;
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+h1, h2, h3 {
+font-family: 'Inter';
+color: black;
+font-weight: bold;
+}
+h1{
+text-align: center;
+}
+
+p {
+font-family: 'Inter';
+color: black;
+}
+
+.sociallinks a{
+    text-decoration: none;
+}
+.sociallinks img{
+    max-width: 150px;
+}
+.links a{
+    text-decoration: none;
+}
+body{
+    max-width: 1600px;
+}
+main{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.trip-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  table {
+    width: 100%;
+  }
+footer {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #797481;
+  }
+  
+  .sociallinks {
+    display: flex;
+  }
+  
+  .sociallinks a {
+    margin-left: 10px;
+    max-width: 200px;
+}
+.trip-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .trip {
+    flex-basis: 30%;
+    text-align: center;
+  }
+  
+  .trip img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .trip h2 {
+    font-size: 1.5em;
+    color: #3c3744;
+    margin-bottom: 10px;
+  }
+  
+  .trip p {
+    font-size: 1em;
+    color: #555555;
+  }
+  .details{
+    text-align: center;
+  }
+  tbody {
+    background-color: #f1f1f1;
+    font-size: 30px;
+  }
+  
+  tbody td {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  tbody td:first-child {
+    text-align: left;
+  }
