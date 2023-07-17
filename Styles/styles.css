@@ -13,7 +13,7 @@ nav {
 }
 
 nav a{
-    display: bloack;
+    display: block;
     color: white;
     display: block;
     padding: .5rem;
@@ -31,19 +31,24 @@ main{
     grid-column: 2/3;
     margin: 1rem;
 }
-aside{
-    grid-column: 1/2;
-    grid-row: 1/2;
-    position: relative;
-    width: 20rem;
-}
-
 h1{
     color: steelblue;
     border-bottom: 5px black;
     padding: 20px;
 }
+aside{
+    width: 20rem;
+    margin: 10px;
+    border: 1px solid steelblue;
+    padding: 2px;
+    background-color:gray;
+    color: steelblue;
+}
 
+aside img{
+    width: 200px;
+    height: auto;
+}
 main img{
     width: 150px;
     height: auto;
@@ -52,28 +57,12 @@ main img{
     box-shadow: 0 0 30px gray;
     float: right;
 }
-
 p{
     padding: 0;
 }
-aside{
-    margin: skyblue;
-    border: #130070;
-    padding: lightgray ;
-    background-color: skyblue;
-    color: lightslategray;
-    text-align: center;
-    width: 20em;
-}
-
-aside img{
-    width: 200px;
-    height: auto;
-}
-
 footer{
     margin-top: 1em;
-    border-top: 5px blue;
+    border-top: 5px;
     text-align: center;
 }
 
