@@ -40,7 +40,7 @@ text-align: center;
 
 p {
 font-family: 'Inter';
-color: black;
+color: #03f7eb;
 }
 
 .sociallinks a{
@@ -95,7 +95,7 @@ footer {
     font-size: larger;
   }
   .company-info {
-    background-color: #03f7eb;
+    background-color: #d33f49;
     padding: 20px;
   }
   
