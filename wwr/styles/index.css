@@ -66,27 +66,31 @@ footer {
 
 h1 {
     position: absolute;
-    top: 300px;
+    top: 50%;
+    transform: translateY(-50%);
     z-index: 1;
     color: #03f7eb;
     font-size: 60px;
     text-align: center;
     width: 100%;
     padding: 20px;
-}
-form{
-    position: absolute;
-    top: 800px;
-    left: 450px;
+  }
 
+  form {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
     width: 600px;
     margin: 0 auto;
     border: 2px solid black;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     padding: 1rem;
     background-color: #d33f49;
     display: grid;
-}
+    gap: 1rem;
+  }
 fieldset{
     display:grid;
     grid-gap: 1rem;
