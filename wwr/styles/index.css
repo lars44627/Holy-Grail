@@ -65,9 +65,7 @@ footer {
 }
 
 h1 {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    position: relative;
     z-index: 1;
     color: #03f7eb;
     font-size: 60px;
